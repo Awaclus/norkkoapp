@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "norkkoapp",
+    "slug": "norkkoapp",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "myapp",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/images/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#fdf8e5"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "plugins": [
+      "expo-router"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "ec8be130-6679-433c-b619-cd06377ad290"
+      }
+    },
+    "android": {
+      "package": "com.awaclus.norkkoapp"
+    }
+  }
+}
